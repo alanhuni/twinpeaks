@@ -1,0 +1,103 @@
+{% extends "template.html" %}
+{% block title %}Twin Peaks Capital{% endblock %}
+{% block content %}
+<div class="text-center">
+  <img src="{{url_for('static', filename='twinpeaks.jpg')}}" class="img-fluid" style="width: 
+  100%" alt="Twin Peaks">
+</div>
+
+<!-- About us text -->
+<section class="bg-light text-dark p-5 text-center">
+  <div class="d-flex justify-content-center">
+    <div>
+      <h1>About us</h1>
+      <p2>Twin Peaks Capital is a <br><strong>growth orientated and total capital</strong><br> investment firm with a focus on <br><strong>technology and innovation,</strong> <br>managed by a <br><strong>seasoned team</strong><br>who spun out from an established <br><strong>multi-billion private equity firm.</strong></p2>
+    </div>
+  </div>
+</section>
+
+<!-- Cards -->
+<section class="p-5 bg-secondary">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md">
+        <div class="card bg-primary text-dark">
+          <div class="card-body text-center">
+            <div class="h1 mb-2">
+              <i class="bi bi-bullseye"></i>
+            </div>
+            <h3 class="card-title">
+              MISSION
+            </h3>
+            <p class="card-text">
+              Pursue long term superior investment return <br>Be the catalyst for growth and progress<br>&zwnj; 
+            </p>
+          </div>
+        </div>
+        <h1></h1>
+      </div>
+      <div class="col-md">
+        <div class="card bg-primary text-dark">
+          <div class="card-body text-center">
+            <div class="h1 mb-2">
+              <i class="bi bi-eye-fill"></i>
+            </div>
+            <h3 class="card-title">
+              VISION
+            </h3>
+            <p class="card-text">
+              The Pioneer <br>Lifelong Learning <br>Multi-generation Platform
+            </p>
+          </div>
+        </div>
+        <h1></h1>
+      </div>
+      <div class="col-md">
+        <div class="card bg-primary text-dark">
+          <div class="card-body text-center">
+            <div class="h1 mb-2">
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+            </div>
+            <h3 class="card-title">
+              CULTURE
+            </h3>
+            <p class="card-text">
+              Sportsmanship <br>Perserverance <br>Pursuit of excellence
+            </p>
+          </div>
+        </div>
+        <h1></h1>
+      </div>
+      <div class="col-md">
+        <div class="card bg-primary text-dark">
+          <div class="card-body text-center">
+            <div class="h1 mb-2">
+              <i class="bi bi-chat-heart-fill"></i>
+            </div>
+            <h3 class="card-title">
+              VALUES
+            </h3>
+            <p class="card-text">
+              Be Truthful <br>Be Kind<br>&zwnj; 
+            </p>
+          </div>
+        </div>
+        <h1></h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Embed YouTube Video -->
+<br>
+<div class="container-fluid" style="width: 90%;">
+  <div class="row">
+    <div class="col-12">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rJG2YHnqqnk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+{% endblock %}
