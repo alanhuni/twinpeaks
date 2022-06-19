@@ -1,4 +1,22 @@
 {% extends "template.html" %}
-{% block title %} China Focus - Twin Peaks Capital{% endblock %}
+{% block title %}China Focus - Twin Peaks Capital{% endblock %}
 {% block content %}
+<section class="p-5">
+  <h1 class="text-center text-dark"><br>Focus on China <img src="{{url_for('static',filename='china.png')}}" width="50px" height="50px" alt=""></h1>
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-4">
+        <h5>GDP Growth Contribution by Country from 2010-2020</h5>
+        <img src="{{url_for('static',filename='chinagdpcontribution.png')}}" class="img-fluid" alt="">
+      </div>
+      <div class="col-md">
+        <h2>
+          China accounted for 47% global GDP growth in the past 10 years
+        </h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt, a itaque quos odit eveniet maiores omnis est quo, laboriosam?</p>
+        <div class="p">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Quo inventore, odio ex dolorem, dolores, ducimus hic sapiente, iusto ipsa repellendus velit. Placeat, eaque nihil unde at vitae error asperiores voluptatum, nisi, aspernatur officiis animi consectetur aut explicabo maiores reprehenderit in.</div>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}

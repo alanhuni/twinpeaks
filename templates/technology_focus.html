@@ -1,4 +1,47 @@
 {% extends "template.html" %}
-{% block title %} Technology Focus - Twin Peaks Capital{% endblock %}
+{% block title %}Technology Focus - Twin Peaks Capital{% endblock %}
 {% block content %}
+<section class="p-5">
+  <h1 class="text-center text-dark"><br>Focus on Innovative Technology</h1>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 mb-3">
+        <div class="card h-100">
+          <img src="{{url_for('static',filename='icon_cn.png')}}" alt="" class="image-on-top">
+          <div class="card-body">
+            <h5 class="text-center">Digital Economy</h5>
+            <p3>Enterprise Software<br>Consumer Tech<br>Artificial Intelligence</p3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-3">
+        <div class="card h-100">
+          <img src="{{url_for('static',filename='icon_cn.png')}}" alt="" class="image-on-top">
+          <div class="card-body">
+            <h5 class="text-center">Web 3.0</h5>
+            <p3>Blockchain<br>Crypto</p3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-3">
+        <div class="card h-100">
+          <img src="{{url_for('static',filename='icon_cn.png')}}" alt="" class="image-on-top">
+          <div class="card-body">
+            <h5 class="text-center">Carbon Neutrality</h5>
+            <p3>New Mobility<br>Alternative Energy</p3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-3">
+        <div class="card h-100">
+          <img src="{{url_for('static',filename='icon_cn.png')}}" alt="" class="image-on-top">
+          <div class="card-body">
+            <h5 class="text-center">Hard Tech</h5>
+            <p3>AR/VR<br>Robotics<br>Semiconductor</p3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}
