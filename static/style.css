@@ -1,8 +1,9 @@
 p1 {
-	font-size: 2em
+	font-size: 2em;
 }
 body {
 	font-family: 'Rubik', sans-serif;
+	color: #005e7e;
 }
 h1 {
 	font-size: 3em;
@@ -16,4 +17,10 @@ p3 {
 }
 p5 {
 	
+}
+#dark-overlay {
+
+}
+#dark-overlay:hover {
+	opacity: 0.5;
 }

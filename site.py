@@ -20,12 +20,23 @@ def china():
 
 @app.route("/techfocus")
 def tech():
-	return render_template("technology_focus.html")
+	return render_template("focus.html")
 
 @app.route("/investment")
 def investment():
 	return render_template("investment_philosophy.html")
 
+@app.route("/team/terry_hu")
+def terryhu():
+	return render_template("team_terry_hu.html")
+
+@app.route("/team/eric_chen")
+def ericchen():
+	return render_template("team_eric_chen.html")
+
+@app.route("/team/tim_xia")
+def timxia():
+	return render_template("team_tim_xia.html")
 
 if __name__ == "__main__":
 	app.run(debug=True, use_debugger=False, use_reloader=False)
